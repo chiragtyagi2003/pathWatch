@@ -8,7 +8,7 @@ class BingSearchPage extends StatefulWidget {
 }
 
 class _BingSearchPageState extends State<BingSearchPage> {
-  final String subscriptionKey =  'bc3b952689b5456fa03aa9322f7040cc';
+  final String subscriptionKey =  '';
   final String endpoint = "https://api.bing.microsoft.com";
 
   Future<Map<String, dynamic>> searchBing(String query) async {
